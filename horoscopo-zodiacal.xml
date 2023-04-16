@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<horoscopo>
+
+	<fechaValidez>
+		<desde>20220921</desde>
+		<hasta>20220921</hasta>
+	</fechaValidez>
+
+	<signo nombre="Aries" id="1" fechaDesde="0321" fechaHasta="0420">
+		<item nombre="Hoy" id="1">
+			<descripcion>Todos los imprevistos que pudiesen ocurrir hoy se solucionarán sin un máximo de esfuerzo de tu parte. Ten cuidado en las opciones.</descripcion>
+		</item>
+		<item nombre="Amor" id="2">
+			<descripcion>Te espera un día de muchas tensiones en el ámbito familiar, no te alteres e intenta solucionar los problemas rápidamente.</descripcion>
+		</item>
+		<item nombre="Riqueza" id="3">
+			<descripcion>Conocerás a alguien en el plano laboral que se interesará por lo que realices y te dará su apoyo en lo que le solicites.</descripcion>
+		</item>
+		<item nombre="Bienestar" id="4">
+			<descripcion>En esta época podrías sufrir de algún típico malestar de temporada. No tengas miedo, trata de ingerir alimentos que contengan mucha vitamina C.</descripcion>
+		</item>
+	</signo>
+
+	<signo nombre="Tauro" id="2" fechaDesde="0421" fechaHasta="0521">
+	<item nombre="Hoy" id="1">
+	<descripcion>Hoy pueden plantearse conflictos o deseos insatisfechos, posiblemente debidos a la inseguridad de estos últimos días.</descripcion>
+	</item>
+	<item nombre="Amor" id="2">
+	<descripcion>Pasarás momentos de tensión durante la mañana del día de hoy. Te verás arrastrado a disputas innecesarias. Se cuidadoso.</descripcion>
+	</item>
+	<item nombre="Riqueza" id="3">
+	<descripcion>Podrás poner en marcha tus planes, tendrás la energía para hacer ahora lo que te propongas. Buen momento para pedir préstamos.</descripcion>
+	</item>
+	<item nombre="Bienestar" id="4">
+	<descripcion>El amor no es para cobardes. Tienes que intentarlo todo, sin miedo a fracasar, así que entrégate por completo a esa persona que crees especial.</descripcion>
+	</item>
+	</signo>
+
+	<signo nombre="Géminis" id="3" fechaDesde="0522" fechaHasta="0621">
+	<item nombre="Hoy" id="1">
+	<descripcion>Quizá te sientas atrapado, desilusionado e inquieto. Levanta ese ánimo, todo pasa, lo que queda es lo que has hecho en la vida.</descripcion>
+	</item>
+	<item nombre="Amor" id="2">
+	<descripcion>Las aventuras fugaces pueden hacer peligrar tu matrimonio, deja de lado a las personas que te tientan. Es mucho lo que pierdes.</descripcion>
+	</item>
+	<item nombre="Riqueza" id="3">
+	<descripcion>Todo lo económico y lo comercial estará ahora activado. Pero no verás los frutos económicos hasta dentro de lapso medio.</descripcion>
+	</item>
+	<item nombre="Bienestar" id="4">
+	<descripcion>Buena época para replantear tus objetivos. Analiza tu situación y encara el presente. Hoy es el día, no ayer ni mañana.</descripcion>
+	</item>
+	</signo>
+
+	<signo nombre="Cáncer" id="4" fechaDesde="0622" fechaHasta="0723">
+	<item nombre="Hoy" id="1">
+	<descripcion>Evita la hipocresía y los malentendidos con quienes están a tu alrededor, porque hoy pueden desembocar en discordias.</descripcion>
+	</item>
+	<item nombre="Amor" id="2">
+	<descripcion>Durante la jornada de hoy encontrarás una afinidad impensada con alguien de tu entorno laboral. Desarróllala más.</descripcion>
+	</item>
+	<item nombre="Riqueza" id="3">
+	<descripcion>No debes derrochar el dinero, lo necesitarás en breve para invertirlo en cuestiones necesarias. Alguien te hará una propuesta.</descripcion>
+	</item>
+	<item nombre="Bienestar" id="4">
+	<descripcion>Si te sientes frustrado por no haber intentado cumplir tu sueño, busca a esos viejos amigos y quizás puedan recuperar el tiempo perdido.</descripcion>
+	</item>
+	</signo>
+
+	<signo nombre="Leo" id="5" fechaDesde="0724" fechaHasta="0823">
+	<item nombre="Hoy" id="1">
+	<descripcion>Lo más importante es que actúes con naturalidad y seas tú mismo. No es bueno aparentar ser quien no eres para agradar.</descripcion>
+	</item>
+	<item nombre="Amor" id="2">
+	<descripcion>Elige pedir comida en algún lugar que realmente te guste y organiza una cena virtual con tu pareja, o esa persona especial que tanto te gusta.</descripcion>
+	</item>
+	<item nombre="Riqueza" id="3">
+	<descripcion>En el último período has estado distante. No descuides tu trabajo. Préstale más interés para evitar reclamos.</descripcion>
+	</item>
+	<item nombre="Bienestar" id="4">
+	<descripcion>Debido al cambio de clima tu salud puede verse afectada por alergias y enfermedades de carácter respiratorio.</descripcion>
+	</item>
+	</signo>
+
+	<signo nombre="Virgo" id="6" fechaDesde="0824" fechaHasta="0923">
+	<item nombre="Hoy" id="1">
+	<descripcion>Hay muchas cosas positivas que están a tu alrededor, es cuestión de saber mirar y darte cuenta cuáles son.</descripcion>
+	</item>
+	<item nombre="Amor" id="2">
+	<descripcion>Te seguirán preocupando los asuntos afectivos porque aún no ves claro el camino a tomar. Piensa las cosas con calma.</descripcion>
+	</item>
+	<item nombre="Riqueza" id="3">
+	<descripcion>Se avecinan cambios en tu entorno laboral, aunque no serán muy beneficiosos para ti. Trata de evolucionar.</descripcion>
+	</item>
+	<item nombre="Bienestar" id="4">
+	<descripcion>Tendrás que realizar una vida sana y en contacto con la naturaleza para relajarte, evitar las tensiones y mantener su buena salud.</descripcion>
+	</item>
+	</signo>
+
+	<signo nombre="Libra" id="7" fechaDesde="0924" fechaHasta="1023">
+	<item nombre="Hoy" id="1">
+	<descripcion>Entrarás en un periodo de transformación general, aunque éste se notará más en el plano intelectual, que emocional.</descripcion>
+	</item>
+	<item nombre="Amor" id="2">
+	<descripcion>Estarás necesitando afectos y cariño, pero es recomendable que vayas de a poco y evitarás posibles equivocaciones.</descripcion>
+	</item>
+	<item nombre="Riqueza" id="3">
+	<descripcion>Presta más atención a los pequeños detalles ya que son ellos lo que te brindarán estabilidad en tu trabajo.</descripcion>
+	</item>
+	<item nombre="Bienestar" id="4">
+	<descripcion>Deberás cuidarte de los problemas gástricos generalmente ocasionados por distintos desórdenes alimenticios en los que incurres.</descripcion>
+	</item>
+	</signo>
+
+	<signo nombre="Escorpio" id="8" fechaDesde="1024" fechaHasta="1122">
+	<item nombre="Hoy" id="1">
+	<descripcion>Te buscarán el punto para hacerte salir fuera de control, no les des el gusto. Muéstrate tal cual eres y mantén siempre la calma.</descripcion>
+	</item>
+	<item nombre="Amor" id="2">
+	<descripcion>Se acerca un período en donde reinará la inestabilidad, ten en cuenta que a todos les sucede. Soluciónalo de inmediato.</descripcion>
+	</item>
+	<item nombre="Riqueza" id="3">
+	<descripcion>Gastos desmesurados los cuales fueron hechos sin mucho razonamiento te ponen en peligro de inestabilidad. Sé precavido.</descripcion>
+	</item>
+	<item nombre="Bienestar" id="4">
+	<descripcion>Tendrás que dedicarte un poco más al ocio para compensar el agotamiento físico e intelectual que estás sufriendo durante este período.</descripcion>
+	</item>
+	</signo>
+
+	<signo nombre="Sagitario" id="9" fechaDesde="1123" fechaHasta="1222">
+	<item nombre="Hoy" id="1">
+	<descripcion>Las noticias que recibas hoy te parecerán inciertas al principio, pero la noticia siguiente lo aclarará.</descripcion>
+	</item>
+	<item nombre="Amor" id="2">
+	<descripcion>Descubrirás que un amigo te observa con una mirada distinta, no te resistas a la intervención de Cupido, dale la oportunidad.</descripcion>
+	</item>
+	<item nombre="Riqueza" id="3">
+	<descripcion>Es tarde para tentaciones. Ahora que has avizorado un futuro mejor, tu jefe intentará retenerte con varias propuestas.</descripcion>
+	</item>
+	<item nombre="Bienestar" id="4">
+	<descripcion>Todo lo que digas y lo que hagas tendrá una fuerte influencia en tu entorno, tanto para bien como para mal. Piensa bien antes de hablar.</descripcion>
+	</item>
+	</signo>
+
+	<signo nombre="Capricornio" id="10" fechaDesde="1223" fechaHasta="0120">
+	<item nombre="Hoy" id="1">
+	<descripcion>Si te obligan a cargar con responsabilidades excesivas, piénsalo dos veces, puede ser demasiado para ti. No te sobre exijas.</descripcion>
+	</item>
+	<item nombre="Amor" id="2">
+	<descripcion>Tiempos de placer, perfecto para afianzar una relación que a veces no parece estable. Tendrás ganas de comprometerte en serio.</descripcion>
+	</item>
+	<item nombre="Riqueza" id="3">
+	<descripcion>Es posible que las cosas económicas se retrasen, así que tendrás que practicar la paciencia si no quieres desesperarte.</descripcion>
+	</item>
+	<item nombre="Bienestar" id="4">
+	<descripcion>Tienes que ser lo más objetivo posible respecto a tu salud. Cuídate y evita las imprudencias, conseguirás una vida más saludable.</descripcion>
+	</item>
+	</signo>
+
+	<signo nombre="Acuario" id="11" fechaDesde="0121" fechaHasta="0219">
+	<item nombre="Hoy" id="1">
+	<descripcion>Trata de hacer uso de tu capacidad de comunicación, no siempre es recomendable discutir sin ningún sentido y por pequeñeces.</descripcion>
+	</item>
+	<item nombre="Amor" id="2">
+	<descripcion>No es el mejor momento ni la situación correcta para expresar tus verdaderas intenciones. Ten un poco de cautela.</descripcion>
+	</item>
+	<item nombre="Riqueza" id="3">
+	<descripcion>Comenzarás un nuevo ciclo profesional y en tus relaciones sociales, que pueden llegar a ser muy importantes.</descripcion>
+	</item>
+	<item nombre="Bienestar" id="4">
+	<descripcion>Podrás dejar, finalmente, esos hábitos dañinos que siempre has querido abandonar y no sabías cómo hacer para lograrlo.</descripcion>
+	</item>
+	</signo>
+
+	<signo nombre="Piscis" id="12" fechaDesde="0220" fechaHasta="0320">
+	<item nombre="Hoy" id="1">
+	<descripcion>Una nueva actividad te sacará de la rutina que te estresa mucho. Aprovecha esta situación a más no poder. No suelen repetirse.</descripcion>
+	</item>
+	<item nombre="Amor" id="2">
+	<descripcion>En la pareja las cosas no saldrán como quieres, está en ti que las cosas puedan llegar a un arreglo de la mejor manera.</descripcion>
+	</item>
+	<item nombre="Riqueza" id="3">
+	<descripcion>Tus asuntos económicos estarán en un buen momento, sobre todo aquellos que te relacionan con otras personas.</descripcion>
+	</item>
+	<item nombre="Bienestar" id="4">
+	<descripcion>Haz reposos frecuentes para que tu sistema nervioso pueda recuperarse. Trata de comer de manera sana para no fatigar tu aparato digestivo.</descripcion>
+	</item>
+	</signo>
+</horoscopo>

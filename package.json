@@ -1,0 +1,33 @@
+{
+  "name": "horoscopo-tom",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "source": "./src/horoscopo.js",
+  "module": "./dist/horoscopo.js",
+  "targets": {
+    "module": {
+      "optimize": true
+    }
+  },
+  "copyStaticFiles": [
+    {
+      "from": "./src/assets/**",
+      "to": "./dist"
+    }
+  ],
+  "scripts": {
+    "build": "parcel build",
+    "build:dev": "parcel watch src/horoscopo.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.7.0",
+    "parcel-reporter-copy-file-v2": "^1.0.1"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.7"
+  }
+}

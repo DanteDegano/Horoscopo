@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="horo"></div>
+    
+
+    <script type="module">
+        import Horoscopo from './dist/horoscopo.js';
+
+        async function main() {
+            const miHoroscopo = await Horoscopo.getInstance('#horo', {
+                datasource: 'xmlfile',
+                datasourcePath: './horoscopo-zodiacal.xml',
+                signo: 'geminis', // si o si minuscula, variable que carga la nota
+                template: `
+                <h1>Horóscopo de  <span class="horoscopo_signo">{{ signo.nombre }}</span> de hoy: <span class="horoscopo_fecha">{{ fechaHoy }}</span></h1>
+                <p>Consultá las predicciones astrológicas del <span class="horoscopo_fecha">{{ fechaHoy }}</span> en el trabajo, la salud y el dinero para los nacidos bajo <span class="horoscopo_signo">{{ signo.nombre }}</span></p>
+                <img class="horoscopo_img" src="./src/resources/img/{{ signo.nombre }}.jpg" alt="Imagen del signo">
+                <p>Horóscopo de  <span class="horoscopo_signo">{{ signo.nombre }}</span> de hoy: <span class="horoscopo_fecha">{{ fechaHoy }}</span></p>    
+                <br>
+                <br>
+                <p><span class="horoscopo_descripcion" >{{ signo.hoy }}</span></p>
+                <p><b>Fechas: </b><span class="horoscopo_desde">{{ signo.inicioMesSigno }}</span> al <span class="horoscopo_hasta">{{ signo.finMesSigno }}</span></p>
+                <br>
+                <br>
+                <h2>Qué le espera a <span class="horoscopo_signo">{{ signo.nombre }}</span> el <span class="horoscopo_fecha">{{ fechaHoy }}</span></h2>
+                <br>
+                <p><b>Amor: </b><span class="horoscopo_amor">{{ signo.amor }}</span> </p>
+                <br>
+                <p><b>Riqueza: </b><span class="horoscopo_riqueza">{{ signo.riqueza }}</span> </p>
+                <br>
+                <p><b>Bienestar: </b><span class="horoscopo_bienestar">{{ signo.bienestar }}</span> </p>
+                `,
+                context: {
+                    fechaHoy: (new Date()).toLocaleDateString(),
+                },
+            });
+        }
+
+        main()
+
+    </script>
+</body>
+</html>
